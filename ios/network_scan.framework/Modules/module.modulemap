@@ -1,0 +1,11 @@
+framework module network_scan {
+  umbrella header "network_scan.h"
+
+  export *
+  module * { export * }
+}
+
+module network_scan.Swift {
+    header "network_scan-Swift.h"
+    requires objc
+}

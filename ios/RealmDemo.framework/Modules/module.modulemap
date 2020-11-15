@@ -1,0 +1,11 @@
+framework module RealmDemo {
+  umbrella header "RealmDemo.h"
+
+  export *
+  module * { export * }
+}
+
+module RealmDemo.Swift {
+    header "RealmDemo-Swift.h"
+    requires objc
+}
